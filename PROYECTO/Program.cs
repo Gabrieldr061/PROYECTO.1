@@ -34,6 +34,8 @@
             ente2.name = "Emilio";
             ente2.Presentarse("Emilio");
 
+            ente2.Presentarse("Angel");
+
         }
     }
 }
