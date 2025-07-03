@@ -7,6 +7,7 @@
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Pide la alberca");
             Console.WriteLine("Prende el server");
+            Console.WriteLine("Pide la alberca");
         }
     }
 }
