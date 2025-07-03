@@ -16,7 +16,7 @@
 
             public void Presentarse(string nombre)   //parametro dentro del parentesis
             {
-                Console.WriteLine(" Hola soy {0} y mi id es {1} mi peso es {2}kg y mi altura es {3} cm", name, id, peso, altura);  //argumentos y atributos no es lo mismo
+                Console.WriteLine(" Hola soy {0} y mi id es {1} mi peso es {2}kg y mi altura es {3} m", name, id, peso, altura);  //argumentos y atributos no es lo mismo
             }
 
             public void Presentarse(string nombre, int id)
@@ -24,6 +24,9 @@
                 Console.WriteLine("Mi nombre es {0} y mi id es {1}", nombre, id);
             }
 
+            public void hablar() {
+                Console.WriteLine("estoy hablando ahora mismo");
+            }
         }
         static void Main(string[] args)
         {
@@ -42,6 +45,7 @@
             ente3.Presentarse("Alejandro", 100);
 
             ente2.Presentarse("Angel");
+            ente2.hablar();
 
         }
     }
