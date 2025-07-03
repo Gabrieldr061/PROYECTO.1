@@ -30,6 +30,7 @@
                 ente.estado = true;
 
                 ente.Presentarse();
+                Console.WriteLine("MMM");
             }
         }
     }
