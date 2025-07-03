@@ -33,6 +33,13 @@
             ente2.peso = 75.5f;
             ente2.name = "Emilio";
             ente2.Presentarse("Emilio");
+            
+            Ente ente3 = new Ente();
+            ente3.id = 100;
+            ente3.altura = 1.80f;
+            ente3.peso = 80.0f;
+            ente3.name = "Alejandro";
+            ente3.Presentarse("Alejandro", 100);
 
             ente2.Presentarse("Angel");
 
